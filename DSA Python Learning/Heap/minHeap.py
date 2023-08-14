@@ -49,8 +49,9 @@ class minHeap:
         result=self.arr.pop()
         self.heapify(0,len(self.arr))
         return result
-        
-h=minHeap()
+
+#Test Case
+"""h=minHeap()
 h.insert(5)
 h.insert(7)
 h.insert(6)
@@ -61,4 +62,4 @@ h.insert(11)
 h.insert(13)
 print(h.delete())
 print(h.delete())
-print(h.arr)
+print(h.arr)"""
