@@ -24,7 +24,7 @@ class Uni:
             self.rank[p_x] += 1
             self.parent[p_y] = p_x
         else:
-            self.parent[p_y] = p_x
+            self.parent[p_x] = p_y
 
 g = Uni(10)
 g.add(1, 2)
